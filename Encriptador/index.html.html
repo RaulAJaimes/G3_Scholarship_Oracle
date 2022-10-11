@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es-419">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+
+  <body class="body">
+    <section class="alura1">
+      <img class="alurapng" src="imgs/alura.png" />
+      <section class="seccionAlura">
+        <h1 class="tit_1_Encr">Encriptador de texto</h1>
+        <img class="encrip" src="imgs/enc2_90x90.png"/>
+      </section>
+    </section>
+
+    <main class="main">
+      <section class="secMain">
+        <p class="minusculas">Escribir su texto ↓ Solo minusculas y sin acentos.</p>
+        <div class="encriptar">         
+          <textarea            
+            class="textoEncriptar"
+            autofocus
+            placeholder='"Escriba su TEXTO aquí"'
+            cols="30"
+            rows="18"
+          ></textarea>
+          <p class="minusculas">Su texto aparecerá acá↓</p>
+          <textarea            
+            class="textoDesencriptar"
+            disabled
+            placeholder='"Su TEXTO aparecerá acá"'
+            cols="30"
+            rows="18"
+          ></textarea
+          >
+        </div>
+      </section>
+
+      <section class="botones">
+        <div class="bn_Encriptar">
+          <img class="bnEnc" src="imgs/bnEnc.png"/>
+          <button class="bnEncriptar">
+            ENCRIPTAR
+          </button>
+        </div>
+
+        <div class="bn_Desencriptar">
+          <img class="bnDes" src="imgs/bnDenc.png"/>
+          <button class="buttonDscriptar">
+            DesENCRIPTAR
+          </button>
+        </div>
+
+        <div id="parteFinal">
+        <img src="imgs/detec.png" id="detectives"/>
+        <br>
+        <input class="mensaje"; 
+        type = "text";        
+        disabled>
+        <br>
+        <button class="clear">←Limpiar</button>
+        <button class="bnCopiar">Copiar</button>
+        </div>
+
+      </section>
+    </main>
+    <script src="javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,229 @@
+.body{
+    width: 100%;
+    background: #F3F5FC;
+}
+
+.alura1{
+    display: flex;
+}
+
+.alurapng{    
+   margin-top: 2%; 
+   width: 2%;
+   height: 2%;
+   margin-left: 18%;
+}
+
+.seccionAlura{
+    display:flex;
+    float: inherit;
+    margin-top: 0%;
+    padding: 0%;    
+    width: 63%;
+    height: 20%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    background: #02fafa;
+    border: 0%;
+}
+
+.tit_1_Encr{
+    float: inherit;
+    margin-top: 3%;    
+    margin-left: 35%;   
+    font-size: 30px;
+}
+
+.encrip{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 7%;
+    height: 80%;
+}
+
+.main{
+    display: flex;
+    margin-left: 15%;
+}
+
+.secMain{    
+    width: 50%;   
+    height: 100%;
+    margin-left: 3%;
+    background: #67d685;
+}
+
+.textoEncriptar{ 
+    margin-left: 1%;
+    width: 96%;     
+    height: auto;       
+}
+
+.textoDesencriptar{ 
+    margin-left: 1%;
+    width: 96%;     
+    height: auto;
+    border: none;
+    outline: none; 
+    background: #dcfbe2;   
+}
+
+.minusculas{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+.bn_Encriptar,.bn_Desencriptar{
+    margin-top: 5%;  
+    margin-left: 5%;  
+    display: flex;   
+}
+
+.bnEnc{
+    margin-left: none;
+}
+
+.bnEncriptar{
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 5px;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    border: solid #d91c71 2px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#807ef2), to(#2105fa));
+    background: -moz-linear-gradient(top, #807ef2, #2105fa);     
+    cursor:pointer;
+}
+
+.buttonDscriptar{
+font-family: Arial;
+color: #ffffff;
+font-size: 22px;
+padding: 5px;
+margin-top: 2%;
+margin-left: 8%;
+margin-bottom: 5%;
+text-decoration: none;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+border-radius: 24px;
+-webkit-box-shadow: 0px 1px 3px #666666;
+-moz-box-shadow: 0px 1px 3px #666666;
+box-shadow: 0px 1px 3px #666666;
+text-shadow: 1px 1px 3px #666666;
+border: solid #d91c71 2px;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#807ef2), to(#2105fa));
+background: -moz-linear-gradient(top, #807ef2, #2105fa);     
+cursor:pointer;
+}
+
+.bnEncriptar:hover{
+    background: #20b5e6;
+}
+
+.bnEncriptar:active{
+    background: #032c60;
+}
+
+.buttonDscriptar:hover{
+    background: #28c946;
+}
+
+.buttonDscriptar:active{
+    background: #2a754b;
+}
+
+#detectives{
+    margin-top: 2%;
+    width: 93%;
+    height: 30%;
+}
+
+.mensaje{  
+    border: none;
+    outline: none;   
+    font-size: 24px; 
+    text-align: center;
+    background: #F3F5FC;
+    color:#080808;    
+    width: 100%;  
+}
+
+.bnCopiar{
+    font-family: Georgia;
+    color: #080808;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 30%;
+    text-decoration: none;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #d1d1d1;
+    border: solid #fa920a 2px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#14ba11), to(#08f508));
+    background: -moz-linear-gradient(top, #11e80e, #08f508);
+    cursor:pointer;
+}
+
+.bnCopiar:hover{
+    background: #428ecc;
+}
+
+.bnCopiar:active{
+    background: #03f1fd;
+}
+
+.clear{
+    font-family: Georgia;
+    color: #080808;
+    font-size: 27px;
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 25%;
+    text-decoration: none;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #d1d1d1;
+    border: solid #fa920a 2px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#14ba11), to(#08f508));
+    background: -moz-linear-gradient(top, #11e80e, #08f508);
+    cursor:pointer;
+}
+
+.clear:hover{
+    background: #428ecc;
+}
+
+.clear:active{
+    background: #03f1fd;
+}
+
+
+    
+
+
+
+
+
+
